@@ -1,64 +1,186 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>K &amp; J Get Hitched</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <title>K &amp; J Get Hitched</title>
-  <meta name="description" content="">
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      #announce {
+        background: url(img/tree4.png) no-repeat left bottom;
+      }
+    </style>
 
-  <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
-  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+    <!-- Le fav and touch icons -->
+    <!-- <link rel="shortcut icon" href="../ico/favicon.ico"> -->
+  </head>
 
-  <link rel="stylesheet" href="css/style.css">
+  <body data-spy="scroll">
 
-  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#">Bernat + Andrews</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="#announce">Home</a></li>
+              <li><a href="#location">Wedding Location</a></li>
+              <li><a href="#hotels">Hotel Information</a></li>
+              <li><a href="#registry">Registry</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-  <!-- All JavaScript at the bottom, except this Modernizr build.
-       Modernizr enables HTML5 elements & feature detects for optimal performance.
-       Create your own custom Modernizr build: www.modernizr.com/download/ -->
-  <script src="js/libs/modernizr-2.5.3.min.js"></script>
-</head>
-<body>
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
-  <header>
-    <h1>K+J 4Evr</h1>
-  </header>
-  <div role="main">
+    <div class="container">
+      <div id="announce" class="hero-unit">
+        <h1>We're getting married!</h1>
+        <p>October 6th? More like <em>Rock</em>tober 6th!</p>
+      </div>
 
-  </div>
-  <footer>
+      <div class="row">
+        <div class="span12">
+          <p>
+          Kristin and John met 11 years ago at Halloween in Athens,
+          Ohio.  Kristin was dressed as an allegory for not running
+          with scissors in her hand and John was "attacked by
+          Spiderman." Kristin made him a picket sign that said
+          "Spiderman totally attacked me" and tied him up with yarn.
+          At the end of that weekend they promised to keep in touch.
+          </p>
+        </div>
+      </div>
 
-  </footer>
+      <div class="row">
+        <div class="span8">
+          <img src="img/date.png">
+        </div>
+        <div class="span4">
+          <p>
+          Please join us on October 6th for a wedding a decade or so in
+          the making. (We haven't been planning it for that long)
+          </p>
+        </div>
+      </div>
+      <hr>
+      <!-- Example row of columns -->
+      <div id="location" class="row">
+        <div class="span4">
+          <h2>Wedding Location</h2>
+          <p>
+            Both the wedding and reception are at
+            <address>
+              <a href="http://www.viavecchiawinery.com/index2.html">Via
+              Vecchia Winery (V)</a><br>
+              485 South Front Street<br>
+              Columbus, Ohio 43215<br>
+              614-893-5455
+            </address>
+          </p>
+          <h2>Hotel Information</h2>
 
+          <address>
+            <a href="https://maps.google.com/maps?q=175+East+Town+Street+Columbus,+Ohio+43215&hl=en&sll=39.963849,-82.997707&sspn=0.011019,0.022638&t=w&hnear=175+E+Town+St,+Columbus,+Ohio+43215&z=16">
+              Holiday Inn Columbus Downtown (H)</a><br>
+            175 East Town Street<br>
+            Columbus, Ohio 43215<br>
+            614.221.3281<br>
+          </address>
+          <address>
+            <a href="https://maps.google.com/maps?q=501+North+High+Street+Columbus,+OH+43215&hl=en&sll=39.958724,-82.994785&sspn=0.01102,0.022638&t=w&hnear=501+High+St,+Columbus,+Ohio+43215&z=16">
+              Hampton Inn & Suites Columbus-Downtown (I)</a><br>
+            501 North High Street<br>
+            Columbus, OH 43215<br>
+            614.324.9026<br>
+          </address>
+          <address>
+            <a href="https://maps.google.com/maps?q=50+North+Third+Street+Columbus+Ohio+43215&hl=en&sll=39.963849,-82.997707&sspn=0.011019,0.022638&t=w&hnear=50+N+3rd+St,+Columbus,+Ohio+43215&z=16">
+              Renaissance Columbus Downtown Hotel (R)</a><br>
+            50 North Third Street<br>
+            Columbus Ohio 43215<br>
+            614.233.7533<br>
+          </address>
+        </div>
 
-  <!-- JavaScript at the bottom for fast page loading -->
+        <div class="span8">
+          <img src="http://maps.googleapis.com/maps/api/staticmap?size=580x430&maptype=roadmap
+                    &markers=label:V%7C39.95234,-83.00058
+                    &markers=label:H%7C39.959185,-82.994753
+                    &markers=label:I%7C39.973256,-83.002664
+                    &markers=label:R%7C39.963981,-82.99775
+                    &sensor=false"></img>
+        </div>
+      </div>
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+      <div id="hotels" class="row">
+        <div class="span12">
+          <p>Please make your reservations early because there is a
+            big OSU football game on the same day. Rooms will be filling up
+            fast! If you make your reservations by September 1st and mention
+            "Bernat-Andrews wedding" you will receive a special block
+            discount rate.
+          </p>
 
-  <!-- scripts concatenated and minified via build script -->
-  <script src="js/plugins.js"></script>
-  <script src="js/script.js"></script>
-  <!-- end scripts -->
+          <p>
+            We will be staying at the Renaissance.
+          </p>
+       </div>
+      </div>
 
-  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
-       mathiasbynens.be/notes/async-analytics-snippet -->
-  <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-</body>
+      <div id="registry" class="row">
+        <div class="span12">
+          <h2>Registry</h2>
+          <p>
+            We don't need anything. Just come and have fun! If you
+            must give a gift, we would gladly accept donations to our honeymoon fund.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; K&amp;J Get Hitched and Associates 2012</p>
+        <!-- photo credits: http://www.flickr.com/photos/billselak/2779841401/ -->
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <!-- <script src="../js/bootstrap-transition.js"></script> -->
+    <!-- <script src="../js/bootstrap-alert.js"></script> -->
+    <!-- <script src="../js/bootstrap-modal.js"></script> -->
+    <!-- <script src="../js/bootstrap-dropdown.js"></script> -->
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <!-- <script src="../js/bootstrap-tab.js"></script> -->
+    <!-- <script src="../js/bootstrap-tooltip.js"></script> -->
+    <!-- <script src="../js/bootstrap-popover.js"></script> -->
+    <!-- <script src="../js/bootstrap-button.js"></script> -->
+    <!-- <script src="../js/bootstrap-collapse.js"></script> -->
+    <!-- <script src="../js/bootstrap-carousel.js"></script> -->
+    <!-- <script src="../js/bootstrap-typeahead.js"></script> -->
+
+  </body>
 </html>
